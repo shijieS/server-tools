@@ -1,5 +1,10 @@
 sudo apt-get install build-essential golang mercurial 
 
+rm ngrok
+rm ngrokd
+rm server.*
+rm base.*
+
 cd ./
 git clone https://github.com/inconshreveable/ngrok.git ngrok-source
 
