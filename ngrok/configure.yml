@@ -1,0 +1,15 @@
+server_addr: ssj-server.me:4443
+tunnels:
+  ssj-http:
+    addr: 8888
+    web_addr: 127.0.0.1:4040
+    subdomain: ssjhttp
+    inspect: false
+    proto:
+      http: 6006 
+  ssj-tcp:
+    subdomain: ssjtcp
+    inspect: false
+    remote_port: 34567
+    proto:
+      tcp: 22 
